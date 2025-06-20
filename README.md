@@ -6,7 +6,11 @@ that your Docker Compose files are always checked for errors before deployment.
 ```yaml
 name: Lint Docker Compose
 
-on: [ push, pull_request ]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   dclint:
