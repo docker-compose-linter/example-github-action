@@ -23,8 +23,14 @@ jobs:
           recursive: true
 ```
 
-More examples is
+More usage examples is
 in [docker-compose-linter/dclint-github-action](https://github.com/docker-compose-linter/dclint-github-action).
+
+## Pull Request Examples
+
+- [Basic Action with Annotations and Summary](https://github.com/docker-compose-linter/example-github-action/actions/runs/15779875919)
+- [Docker Action with Annotations](https://github.com/docker-compose-linter/example-github-action/actions/runs/15780219598)
+- [Reviewdog integration with PR Review](https://github.com/docker-compose-linter/example-github-action/pull/3) 
 
 ## License
 
